@@ -9,6 +9,7 @@ const routes: Routes = [
   {path: 'bienvenida', component: BienvenidaComponent},
   {path: 'login', component: LoginComponent},
   {path: 'home', component: HomeComponent},
+  {path: '', redirectTo: '/bienvenida', pathMatch: 'full'},
   {path: '**', component: ErrorComponent},
 ];
 
