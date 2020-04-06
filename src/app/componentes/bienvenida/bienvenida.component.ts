@@ -9,7 +9,7 @@ export class BienvenidaComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
 
 }
