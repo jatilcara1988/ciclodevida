@@ -4,11 +4,13 @@ import { BienvenidaComponent } from './componentes/bienvenida/bienvenida.compone
 import { LoginComponent } from './componentes/login/login.component';
 import { HomeComponent } from './componentes/home/home.component';
 import { ErrorComponent } from './componentes/error/error.component';
+import { AdminComponent } from './pages/input/admin/admin.component';
 
 const routes: Routes = [
   {path: 'bienvenida', component: BienvenidaComponent},
   {path: 'login', component: LoginComponent},
   {path: 'home', component: HomeComponent},
+  {path: 'admin', component: AdminComponent},
   {path: '', redirectTo: '/bienvenida', pathMatch: 'full'},
   {path: '**', component: ErrorComponent},
 ];

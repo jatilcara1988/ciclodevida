@@ -7,18 +7,26 @@ import { BienvenidaComponent } from './componentes/bienvenida/bienvenida.compone
 import { LoginComponent } from './componentes/login/login.component';
 import { ErrorComponent } from './componentes/error/error.component';
 import { FormsModule } from '@angular/forms';
+import { AdminComponent } from './pages/input/admin/admin.component';
+import { DetalleAlumnoComponent } from './pages/input/detalle-alumno/detalle-alumno.component';
+import { FormAlumnoComponent } from './pages/input/form-alumno/form-alumno.component';
+import { TablaAlumnoComponent } from './pages/input/tabla-alumno/tabla-alumno.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     BienvenidaComponent,
     LoginComponent,
-    ErrorComponent
+    ErrorComponent,
+    AdminComponent,
+    DetalleAlumnoComponent,
+    FormAlumnoComponent,
+    TablaAlumnoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
