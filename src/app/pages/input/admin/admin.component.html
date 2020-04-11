@@ -7,7 +7,7 @@
 
 
         <h1 id="site-logo"><a href="#">Principal</a></h1>
-        <!--h2 id="site-description">{{title}}</h2-->
+        <h2 id="site-description">{{title}}</h2>
 
         <nav>
 
@@ -36,17 +36,12 @@
 
             <header>
                 <h1 class="post-title"><a href="#">Listado</a></h1>
-                <p class="post-meta"><time class="post-date" datetime="2018-12" pubdate>2018</time> <em>en</em> <a href="#">UTN FRA</a></p>
+                <p class="post-meta"><time class="post-date" datetime="2020-04" pubdate>2020</time> <em> en </em> <a href="#">UTN FRA</a></p>
             </header>
             <hr>
             <div id="principal">
-
-                <!--app-listado-alumnos [listadoAlumnos]="listadoPrincipal"    (alumnoSeleccionado)="tomarAlumnoParaDetalles($event)"></app-listado-alumnos-->
+                <app-tabla-alumno [listadoAlumnos]="listadoPrincipal" (alumnoSeleccionado)="tomarAlumnoParaDetalles($event)"></app-tabla-alumno>
                 <!--app-listado-profesor [listadoProfesores]="ListadoProfesoresPrincipal"  (profesorSeleccionado)="tomarProfesorParaDetalles($event)"></app-listado-profesor-->
-
-                <!-- 
-                    <app-tabla-profesor [listadoProfesores]="ListadoProfesoresPrincipal" (profesorSeleccionado)="tomarProfesorParaDetalles($event)"></app-tabla-profesor>
-                -->
             </div>
 
         </article>
@@ -66,19 +61,14 @@
         <section class="widget clearfix">
             <h4 class="widgettitle">Alta </h4>
             <div id="informe">
-
-
-                <!--app-alumno (alumnoCreado)="tomarAlumnoCreado($event)"></app-alumno-->
+                <app-form-alumno (alumnoCreado)="tomarAlumnoCreado($event)"></app-form-alumno>
                 <!--app-profesor (SeCreoUnProfesor)="mostrarProfesor($event)"></app-profesor-->
-
             </div>
-
         </section>
         <section class="widget clearfix">
             <h4 class="widgettitle">Detalle </h4>
             <div id="error">
-
-                <!--app-detalle-alumnos [alumnoParaMostrar]="alumnoSeleccionado"></app-detalle-alumnos-->
+                <app-detalle-alumno [alumnoParaMostrar]="alumnoSeleccionado"></app-detalle-alumno>
                 <!--app-detalle-profesor [unProfesor]="profesorParaMostrar"></app-detalle-profesor-->
             </div>
 

@@ -128,7 +128,7 @@ GENERAL STYLING
 *************************************************************************************/
 
 body {
-    background: #0d1424 url(/../assets/imagenes/body-bg2.jpg) no-repeat fixed top !important;
+    background: #0d1424 url(/../../../../../assets/imagenes/body-bg2.jpg) no-repeat fixed top !important;
     background-position: center !important;
     background-size: cover!important;
     font: .81em/150% Arial, Helvetica, sans-serif;
@@ -306,7 +306,7 @@ MAIN NAVIGATION
     bottom: 0;
     z-index: 100;
     /* gradient */
-    background: #6a6a6a url(/assets/images/nav-bar-bg.png) repeat-x;
+    background: #6a6a6a url(/../../../../../assets/images/nav-bar-bg.png) repeat-x;
     background: -webkit-gradient(linear, left top, left bottom, from(#b9b9b9), to(#6a6a6a));
     background: -moz-linear-gradient(top, #b9b9b9, #6a6a6a);
     background: linear-gradient(-90deg, #b9b9b9, #6a6a6a);
