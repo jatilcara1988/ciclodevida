@@ -11,7 +11,7 @@ const routes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'home', component: HomeComponent},
   {path: 'admin', component: AdminComponent},
-  {path: '', redirectTo: '/bienvenida', pathMatch: 'full'},
+  {path: '', redirectTo: '/admin', pathMatch: 'full'},
   {path: '**', component: ErrorComponent},
 ];
 
